@@ -82,11 +82,11 @@ class HomeController: UIViewController, SwiftEmojiKeyboardDelegate {
 
 ## Author
 
-Emojibase: https://github.com/milesj/emojibase
-
-## Credits
-
 Fortnight Studio, development@fortnight.studio
+
+## Credit
+
+Emojibase: https://github.com/milesj/emojibase
 
 ## License
 
