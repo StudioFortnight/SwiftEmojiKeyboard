@@ -84,7 +84,7 @@ class HomeController: UIViewController, SwiftEmojiKeyboardDelegate {
 
 Fortnight Studio, development@fortnight.studio
 
-## Credit
+## Credits
 
 Emojibase: https://github.com/milesj/emojibase
 
