@@ -50,7 +50,7 @@ class HomeController: UIViewController, SwiftEmojiKeyboardDelegate {
 }
 ```
 
-#### Delegate
+#### Delegate methods
 
 ```swift
 class HomeController: UIViewController, SwiftEmojiKeyboardDelegate {
