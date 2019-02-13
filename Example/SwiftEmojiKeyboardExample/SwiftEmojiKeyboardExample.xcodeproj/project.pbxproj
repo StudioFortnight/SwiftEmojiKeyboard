@@ -8,20 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		029F3BCC221446D1007DD55A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BCB221446D1007DD55A /* AppDelegate.swift */; };
-		029F3BCE221446D1007DD55A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BCD221446D1007DD55A /* ViewController.swift */; };
 		029F3BD1221446D1007DD55A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029F3BCF221446D1007DD55A /* Main.storyboard */; };
 		029F3BD3221446D2007DD55A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029F3BD2221446D2007DD55A /* Assets.xcassets */; };
 		029F3BD6221446D2007DD55A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029F3BD4221446D2007DD55A /* LaunchScreen.storyboard */; };
+		029F3BF72214470E007DD55A /* SwiftEmojiKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BDE2214470E007DD55A /* SwiftEmojiKeyboard.swift */; };
+		029F3BF82214470E007DD55A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BE02214470E007DD55A /* Constants.swift */; };
+		029F3BF92214470E007DD55A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BE12214470E007DD55A /* UIView.swift */; };
+		029F3BFA2214470E007DD55A /* HorizontalFloatingHeaderLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BE22214470E007DD55A /* HorizontalFloatingHeaderLayout.swift */; };
+		029F3BFB2214470E007DD55A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BE32214470E007DD55A /* UIColor.swift */; };
+		029F3BFC2214470E007DD55A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BE52214470E007DD55A /* Service.swift */; };
+		029F3BFD2214470E007DD55A /* compact.json in Resources */ = {isa = PBXBuildFile; fileRef = 029F3BE72214470E007DD55A /* compact.json */; };
+		029F3BFE2214470E007DD55A /* EmojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BE92214470E007DD55A /* EmojiModel.swift */; };
+		029F3BFF2214470E007DD55A /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BEB2214470E007DD55A /* Protocols.swift */; };
+		029F3C002214470E007DD55A /* CategoryDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BEE2214470E007DD55A /* CategoryDelete.swift */; };
+		029F3C012214470E007DD55A /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BEF2214470E007DD55A /* CategoryCell.swift */; };
+		029F3C022214470E007DD55A /* KeyboardCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BF02214470E007DD55A /* KeyboardCategories.swift */; };
+		029F3C032214470E007DD55A /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BF22214470E007DD55A /* KeyboardView.swift */; };
+		029F3C042214470E007DD55A /* KeyboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BF32214470E007DD55A /* KeyboardCell.swift */; };
+		029F3C052214470E007DD55A /* KeyboardFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BF52214470E007DD55A /* KeyboardFooter.swift */; };
+		029F3C062214470E007DD55A /* KeyboardHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3BF62214470E007DD55A /* KeyboardHeader.swift */; };
+		029F3C0822144716007DD55A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F3C0722144716007DD55A /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		029F3BC8221446D1007DD55A /* SwiftEmojiKeyboardExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEmojiKeyboardExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		029F3BCB221446D1007DD55A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		029F3BCD221446D1007DD55A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		029F3BD0221446D1007DD55A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		029F3BD2221446D2007DD55A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		029F3BD5221446D2007DD55A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		029F3BD7221446D2007DD55A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		029F3BDE2214470E007DD55A /* SwiftEmojiKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftEmojiKeyboard.swift; sourceTree = "<group>"; };
+		029F3BE02214470E007DD55A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		029F3BE12214470E007DD55A /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		029F3BE22214470E007DD55A /* HorizontalFloatingHeaderLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalFloatingHeaderLayout.swift; sourceTree = "<group>"; };
+		029F3BE32214470E007DD55A /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		029F3BE52214470E007DD55A /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		029F3BE72214470E007DD55A /* compact.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = compact.json; sourceTree = "<group>"; };
+		029F3BE92214470E007DD55A /* EmojiModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiModel.swift; sourceTree = "<group>"; };
+		029F3BEB2214470E007DD55A /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		029F3BEE2214470E007DD55A /* CategoryDelete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDelete.swift; sourceTree = "<group>"; };
+		029F3BEF2214470E007DD55A /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		029F3BF02214470E007DD55A /* KeyboardCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardCategories.swift; sourceTree = "<group>"; };
+		029F3BF22214470E007DD55A /* KeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		029F3BF32214470E007DD55A /* KeyboardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardCell.swift; sourceTree = "<group>"; };
+		029F3BF52214470E007DD55A /* KeyboardFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardFooter.swift; sourceTree = "<group>"; };
+		029F3BF62214470E007DD55A /* KeyboardHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHeader.swift; sourceTree = "<group>"; };
+		029F3C0722144716007DD55A /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +86,117 @@
 		029F3BCA221446D1007DD55A /* SwiftEmojiKeyboardExample */ = {
 			isa = PBXGroup;
 			children = (
+				029F3BDD2214470E007DD55A /* Controller */,
+				029F3BE62214470E007DD55A /* Files */,
+				029F3BE82214470E007DD55A /* Model */,
+				029F3BEA2214470E007DD55A /* Protocols */,
+				029F3BE42214470E007DD55A /* Service */,
+				029F3BDF2214470E007DD55A /* Utils */,
+				029F3BEC2214470E007DD55A /* View */,
 				029F3BCB221446D1007DD55A /* AppDelegate.swift */,
-				029F3BCD221446D1007DD55A /* ViewController.swift */,
 				029F3BCF221446D1007DD55A /* Main.storyboard */,
 				029F3BD2221446D2007DD55A /* Assets.xcassets */,
 				029F3BD4221446D2007DD55A /* LaunchScreen.storyboard */,
 				029F3BD7221446D2007DD55A /* Info.plist */,
 			);
 			path = SwiftEmojiKeyboardExample;
+			sourceTree = "<group>";
+		};
+		029F3BDD2214470E007DD55A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				029F3BDE2214470E007DD55A /* SwiftEmojiKeyboard.swift */,
+				029F3C0722144716007DD55A /* HomeController.swift */,
+			);
+			name = Controller;
+			path = ../../../SwiftEmojiKeyboard/SwiftEmojiKeyboard/Controller;
+			sourceTree = "<group>";
+		};
+		029F3BDF2214470E007DD55A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				029F3BE02214470E007DD55A /* Constants.swift */,
+				029F3BE12214470E007DD55A /* UIView.swift */,
+				029F3BE22214470E007DD55A /* HorizontalFloatingHeaderLayout.swift */,
+				029F3BE32214470E007DD55A /* UIColor.swift */,
+			);
+			name = Utils;
+			path = ../../../SwiftEmojiKeyboard/SwiftEmojiKeyboard/Utils;
+			sourceTree = "<group>";
+		};
+		029F3BE42214470E007DD55A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				029F3BE52214470E007DD55A /* Service.swift */,
+			);
+			name = Service;
+			path = ../../../SwiftEmojiKeyboard/SwiftEmojiKeyboard/Service;
+			sourceTree = "<group>";
+		};
+		029F3BE62214470E007DD55A /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				029F3BE72214470E007DD55A /* compact.json */,
+			);
+			name = Files;
+			path = ../../../SwiftEmojiKeyboard/SwiftEmojiKeyboard/Files;
+			sourceTree = "<group>";
+		};
+		029F3BE82214470E007DD55A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				029F3BE92214470E007DD55A /* EmojiModel.swift */,
+			);
+			name = Model;
+			path = ../../../SwiftEmojiKeyboard/SwiftEmojiKeyboard/Model;
+			sourceTree = "<group>";
+		};
+		029F3BEA2214470E007DD55A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				029F3BEB2214470E007DD55A /* Protocols.swift */,
+			);
+			name = Protocols;
+			path = ../../../SwiftEmojiKeyboard/SwiftEmojiKeyboard/Protocols;
+			sourceTree = "<group>";
+		};
+		029F3BEC2214470E007DD55A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				029F3BED2214470E007DD55A /* KeyboardCategories */,
+				029F3BF12214470E007DD55A /* KeyboardView */,
+				029F3BF42214470E007DD55A /* KeyboardSupplementaryViews */,
+			);
+			name = View;
+			path = ../../../SwiftEmojiKeyboard/SwiftEmojiKeyboard/View;
+			sourceTree = "<group>";
+		};
+		029F3BED2214470E007DD55A /* KeyboardCategories */ = {
+			isa = PBXGroup;
+			children = (
+				029F3BEE2214470E007DD55A /* CategoryDelete.swift */,
+				029F3BEF2214470E007DD55A /* CategoryCell.swift */,
+				029F3BF02214470E007DD55A /* KeyboardCategories.swift */,
+			);
+			path = KeyboardCategories;
+			sourceTree = "<group>";
+		};
+		029F3BF12214470E007DD55A /* KeyboardView */ = {
+			isa = PBXGroup;
+			children = (
+				029F3BF22214470E007DD55A /* KeyboardView.swift */,
+				029F3BF32214470E007DD55A /* KeyboardCell.swift */,
+			);
+			path = KeyboardView;
+			sourceTree = "<group>";
+		};
+		029F3BF42214470E007DD55A /* KeyboardSupplementaryViews */ = {
+			isa = PBXGroup;
+			children = (
+				029F3BF52214470E007DD55A /* KeyboardFooter.swift */,
+				029F3BF62214470E007DD55A /* KeyboardHeader.swift */,
+			);
+			path = KeyboardSupplementaryViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +260,7 @@
 				029F3BD6221446D2007DD55A /* LaunchScreen.storyboard in Resources */,
 				029F3BD3221446D2007DD55A /* Assets.xcassets in Resources */,
 				029F3BD1221446D1007DD55A /* Main.storyboard in Resources */,
+				029F3BFD2214470E007DD55A /* compact.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +271,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				029F3BCE221446D1007DD55A /* ViewController.swift in Sources */,
+				029F3BFA2214470E007DD55A /* HorizontalFloatingHeaderLayout.swift in Sources */,
+				029F3BFC2214470E007DD55A /* Service.swift in Sources */,
+				029F3C042214470E007DD55A /* KeyboardCell.swift in Sources */,
+				029F3C062214470E007DD55A /* KeyboardHeader.swift in Sources */,
+				029F3BFB2214470E007DD55A /* UIColor.swift in Sources */,
+				029F3C022214470E007DD55A /* KeyboardCategories.swift in Sources */,
+				029F3C002214470E007DD55A /* CategoryDelete.swift in Sources */,
+				029F3BF92214470E007DD55A /* UIView.swift in Sources */,
+				029F3BFF2214470E007DD55A /* Protocols.swift in Sources */,
+				029F3BFE2214470E007DD55A /* EmojiModel.swift in Sources */,
+				029F3C032214470E007DD55A /* KeyboardView.swift in Sources */,
 				029F3BCC221446D1007DD55A /* AppDelegate.swift in Sources */,
+				029F3BF72214470E007DD55A /* SwiftEmojiKeyboard.swift in Sources */,
+				029F3C0822144716007DD55A /* HomeController.swift in Sources */,
+				029F3BF82214470E007DD55A /* Constants.swift in Sources */,
+				029F3C012214470E007DD55A /* CategoryCell.swift in Sources */,
+				029F3C052214470E007DD55A /* KeyboardFooter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
