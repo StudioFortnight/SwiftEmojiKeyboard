@@ -1,9 +1,9 @@
-# FortnightUtils
+# SwiftEmojiKeyboard
 
 <img src="https://i.imgur.com/wcNOp0f.png" width="30%"/>
 
 ## Description
-FortnightUtils is a small library of functions and variables that allows you to quickly build your app programmatically. The aim of this library is to use these components without worrying about creating your own helper files and extensions in order to build out production applications.
+A drop-in UI emoji keyboard written in Swift.
 
 ## Features.
 
@@ -81,6 +81,10 @@ class HomeController: UIViewController, SwiftEmojiKeyboardDelegate {
 ```
 
 ## Author
+
+Emojibase: https://github.com/milesj/emojibase
+
+## Credits
 
 Fortnight Studio, development@fortnight.studio
 
